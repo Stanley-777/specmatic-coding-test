@@ -28,4 +28,4 @@ jobs:
       working-directory: main
       run: mvn test
       env:
-         MAVEN_OPTS:-XX:-UseContainerSupport
+         MAVEN_OPTS: -XX:-UseContainerSupport
